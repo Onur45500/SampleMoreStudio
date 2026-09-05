@@ -1,4 +1,4 @@
-# SampleMoreStudio# SampleMoreStudio
+# SampleMoreStudio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -12,6 +12,11 @@
 SampleMoreStudio is an open-source **benchmark harness + live dashboard** that tests that claim under equal completion-token budgets — first on single-turn reasoning tasks, then on short tool-using agent scaffolds. Local models (Ollama) are first-class so you can reproduce at ~$0.
 
 This is an **independent reproduction / extension** inspired by the 2026 *Sample More, Reflect Less* finding. It is **not** a copy of that paper’s harness.
+
+<p align="center">
+  <img src="docs/images/delta-charts.png" alt="Delta Charts — strategy accuracy at matched budget" width="900" />
+</p>
+<p align="center"><em>Delta Charts — equal-budget strategy comparison with hero Δ callout (preliminary data).</em></p>
 
 ---
 
@@ -67,6 +72,16 @@ Open [http://localhost:5173](http://localhost:5173) after starting the API and f
 3. Click **Compare A/B**
 
 You need finished runs in the DB first (`python scripts/cli.py phase0 …` or a sweep). Live Monitor polls `/api/progress` every 2s (no SSE required).
+
+### Screenshots
+
+**Live Run Monitor** — presets, progress, live leaderboard, cost gauges, log tail:
+
+![Live Run Monitor](docs/images/live-monitor.png)
+
+**Side-by-side compare** — two runs on the same task (turn labels, tokens, truncation, correctness):
+
+![Side-by-side transcript compare](docs/images/transcript-viewer.png)
 
 ---
 
