@@ -1,0 +1,43 @@
+phase1_reasoning:
+  - id: cot
+    name: Chain-of-Thought
+    module: backend.strategies.phase1.cot
+    class: CotStrategy
+    enabled: true
+  - id: self_refine
+    name: Self-Refine
+    module: backend.strategies.phase1.self_refine
+    class: SelfRefineStrategy
+    enabled: true
+  - id: best_of_n
+    name: Best-of-N
+    module: backend.strategies.phase1.best_of_n
+    class: BestOfNStrategy
+    enabled: true
+  - id: majority_vote
+    name: Majority-Vote@K
+    module: backend.strategies.phase1.majority_vote
+    class: MajorityVoteStrategy
+    enabled: true
+
+phase2_agent:
+  - id: react
+    name: ReAct
+    module: backend.strategies.phase2.react
+    class: ReactStrategy
+    enabled: true
+  - id: plan_then_act
+    name: Plan-then-Act
+    module: backend.strategies.phase2.plan_then_act
+    class: PlanThenActStrategy
+    enabled: true
+  - id: reflexion
+    name: Reflexion
+    module: backend.strategies.phase2.reflexion
+    class: ReflexionStrategy
+    enabled: true
+  - id: majority_of_n_agent
+    name: Majority-of-N Agent
+    module: backend.strategies.phase2.majority_of_n_agent
+    class: MajorityOfNAgentStrategy
+    enabled: true

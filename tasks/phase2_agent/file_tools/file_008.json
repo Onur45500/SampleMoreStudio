@@ -1,0 +1,20 @@
+{
+  "id": "file_008",
+  "category": "file_tools",
+  "prompt": "Using the file tools, find the population of the city described in notes/city_8.txt. Report only the population number.",
+  "answer": "728000",
+  "grader": "tool_answer",
+  "grader_params": {
+    "domain": "math",
+    "tolerance": 0
+  },
+  "metadata": {
+    "tool_kind": "file",
+    "files": {
+      "notes/readme.txt": "Capital data for region 8",
+      "notes/city_8.txt": "City: Paris\nPopulation: 728000\nFounded: 2005",
+      "notes/misc.txt": "ignore me"
+    },
+    "source": "generated"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "math_038",
+  "category": "math",
+  "prompt": "Cynthia eats one serving of ice cream every night.  She buys cartons of ice cream with 15 servings of ice cream per carton at a cost of $4.00 per carton.  After 60 days, how much will she spend on ice cream?",
+  "answer": "16",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "math_046",
+  "category": "math",
+  "prompt": "Tom plants 10 trees a year. Every year he also chops down 2 trees a year. He starts with 50 trees. How many trees does he have after 10 years?",
+  "answer": "130",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

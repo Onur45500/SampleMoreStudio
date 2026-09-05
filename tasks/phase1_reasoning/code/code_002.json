@@ -1,0 +1,14 @@
+{
+  "id": "code_002",
+  "category": "code",
+  "prompt": "Write a Python function `is_even(n)` that returns True if n is even else False.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert is_even(2) is True\nassert is_even(3) is False",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

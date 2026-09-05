@@ -1,0 +1,20 @@
+{
+  "id": "file_002",
+  "category": "file_tools",
+  "prompt": "Using the file tools, find the population of the city described in notes/city_2.txt. Report only the population number.",
+  "answer": "977000",
+  "grader": "tool_answer",
+  "grader_params": {
+    "domain": "math",
+    "tolerance": 0
+  },
+  "metadata": {
+    "tool_kind": "file",
+    "files": {
+      "notes/readme.txt": "Capital data for region 2",
+      "notes/city_2.txt": "City: Cairo\nPopulation: 977000\nFounded: 2024",
+      "notes/misc.txt": "ignore me"
+    },
+    "source": "generated"
+  }
+}

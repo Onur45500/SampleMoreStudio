@@ -1,0 +1,13 @@
+{
+  "id": "math_006",
+  "category": "math",
+  "prompt": "Mark has a garden with flowers. He planted 3 varieties of flowers: roses, tulips, and daisies. There are 25 tulips, twice as many roses, and 10 fewer daisies than tulips. How many flowers does Mark have in his garden?",
+  "answer": "90",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

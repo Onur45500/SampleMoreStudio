@@ -1,0 +1,13 @@
+{
+  "id": "logic_017",
+  "category": "logic",
+  "prompt": "Among 18, 4, and 10, which is the largest?",
+  "answer": "18",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

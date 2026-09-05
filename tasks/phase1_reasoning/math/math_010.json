@@ -1,0 +1,13 @@
+{
+  "id": "math_010",
+  "category": "math",
+  "prompt": "A deep-sea monster rises from the waters once every century. It was last seen in 1696. What year will it next rise?",
+  "answer": "1796",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "math_014",
+  "category": "math",
+  "prompt": "Joy can read 8 pages of a book in 20 minutes. How many hours will it take her to read 120 pages?",
+  "answer": "5",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

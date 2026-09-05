@@ -1,0 +1,13 @@
+{
+  "id": "math_042",
+  "category": "math",
+  "prompt": "Darrell and Allen's ages are in the ratio of 7:11. If the sum of their ages is 162, what is Allen's age?",
+  "answer": "99",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

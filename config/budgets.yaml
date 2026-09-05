@@ -1,0 +1,31 @@
+# Token budget ladder (completion tokens — primary budget metric)
+budgets: [256, 512, 1024, 2048]
+
+# Tolerance for overshoot flagging (undershoot is normal)
+overshoot_tolerance_pct: 10.0
+
+# V2: scale per-sample / selection caps with B (avoids fixed-128 truncation confound)
+scale_with_budget: true
+sample_fraction: 0.25          # sample_cap = max(floor, B * fraction)
+selection_fraction: 0.125      # selection_cap = max(floor, B * fraction)
+sample_token_floor: 128
+selection_token_floor: 64
+
+# Legacy fixed caps (used only when scale_with_budget: false)
+sample_token_cap: 128
+selection_token_cap: 64
+
+# Self-Refine defaults
+self_refine_rounds: 3
+self_refine_split: even  # even | front_loaded
+
+# Default seed repeats for statistical power
+default_n_seeds: 3
+
+# Phase 0 smoke-test overrides
+phase0:
+  budget: 512
+  n_seeds: 3
+  n_tasks: 50
+  strategies: [self_refine, majority_vote]
+  model: qwen2.5-7b

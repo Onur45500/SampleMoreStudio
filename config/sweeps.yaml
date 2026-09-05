@@ -1,0 +1,31 @@
+# Named sweep presets for CLI and dashboard
+presets:
+  phase0:
+    description: "Smoke: Self-Refine vs Majority-Vote on math"
+    phase: phase1_reasoning
+    models: [qwen2.5-7b]
+    strategies: [self_refine, majority_vote]
+    budgets: [512]
+    categories: [math]
+    n_seeds: 3
+    task_limit: 50
+
+  phase1_publish:
+    description: "Publish Phase 1: all strategies × budget ladder × math+logic × 3 seeds"
+    phase: phase1_reasoning
+    models: [qwen2.5-7b]
+    strategies: [cot, self_refine, best_of_n, majority_vote]
+    budgets: [256, 512, 1024, 2048]
+    categories: [math, logic]
+    n_seeds: 3
+    task_limit: null
+
+  phase2_publish:
+    description: "Publish Phase 2: all agent scaffolds × [512,1024] × tool tasks × 2 seeds"
+    phase: phase2_agent
+    models: [qwen2.5-7b]
+    strategies: [react, plan_then_act, reflexion, majority_of_n_agent]
+    budgets: [512, 1024]
+    categories: null
+    n_seeds: 2
+    task_limit: null

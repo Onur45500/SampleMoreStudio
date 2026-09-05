@@ -1,0 +1,13 @@
+{
+  "id": "math_015",
+  "category": "math",
+  "prompt": "There are 3 cars in the parking lot. 2 more cars arrive. How many cars are in the parking lot now?",
+  "answer": "5",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

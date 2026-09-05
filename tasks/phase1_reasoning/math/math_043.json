@@ -1,0 +1,13 @@
+{
+  "id": "math_043",
+  "category": "math",
+  "prompt": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many they think are in there. One says 80. Another says 20 more than half the first one. A third says 25% more than the first one. What is their average guess?",
+  "answer": "80",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "math_017",
+  "category": "math",
+  "prompt": "John drives for 3 hours at a speed of 60 mph and then turns around because he realizes he forgot something very important at home. He then drives back for 2 hours at 40 mph before realizing that he forgot something else. How far is he from home?",
+  "answer": "100",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

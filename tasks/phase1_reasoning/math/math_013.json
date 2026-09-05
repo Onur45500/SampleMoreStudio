@@ -1,0 +1,13 @@
+{
+  "id": "math_013",
+  "category": "math",
+  "prompt": "Jasper will serve charcuterie at his dinner party. He buys 2 pounds of cheddar cheese, 4 pounds of brie, and 1.5 pounds of gouda. How many pounds of cheese does he buy total?",
+  "answer": "7.5",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

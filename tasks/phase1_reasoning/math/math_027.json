@@ -1,0 +1,13 @@
+{
+  "id": "math_027",
+  "category": "math",
+  "prompt": "Two trains leave San Rafael at the same time. They begin traveling westward, both averaging 80 mph. The first train stops after 2 hours and the second after 3 hours. How far apart are they then?",
+  "answer": "80",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

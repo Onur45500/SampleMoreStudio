@@ -1,0 +1,20 @@
+{
+  "id": "file_009",
+  "category": "file_tools",
+  "prompt": "Using the file tools, find the population of the city described in notes/city_9.txt. Report only the population number.",
+  "answer": "196000",
+  "grader": "tool_answer",
+  "grader_params": {
+    "domain": "math",
+    "tolerance": 0
+  },
+  "metadata": {
+    "tool_kind": "file",
+    "files": {
+      "notes/readme.txt": "Capital data for region 9",
+      "notes/city_9.txt": "City: Tokyo\nPopulation: 196000\nFounded: 2014",
+      "notes/misc.txt": "ignore me"
+    },
+    "source": "generated"
+  }
+}

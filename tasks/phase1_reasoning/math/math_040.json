@@ -1,0 +1,13 @@
+{
+  "id": "math_040",
+  "category": "math",
+  "prompt": "Gloria is shopping for a new wardrobe. She finds a dress she likes for $30. She also finds a pair of shoes for $20. She then finds a jacket for $40. She has a coupon for 20% off of the dress. How much does she spend total?",
+  "answer": "84",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

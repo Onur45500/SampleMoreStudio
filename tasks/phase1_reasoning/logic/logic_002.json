@@ -1,0 +1,13 @@
+{
+  "id": "logic_002",
+  "category": "logic",
+  "prompt": "All As are Es. All Es are Cs. Is every A a C? Answer yes or no.",
+  "answer": "yes",
+  "grader": "exact_match",
+  "grader_params": {
+    "domain": "logic"
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "calc_007",
+  "category": "calc_tools",
+  "prompt": "Use the calculator tool to compute (15 + 10) * 7. You must use the tool; do not compute only in your head.",
+  "answer": "175",
+  "grader": "tool_answer",
+  "grader_params": {
+    "domain": "math",
+    "tolerance": 1e-06
+  },
+  "metadata": {
+    "tool_kind": "calc",
+    "source": "generated"
+  }
+}

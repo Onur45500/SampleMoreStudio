@@ -1,0 +1,14 @@
+{
+  "id": "code_014",
+  "category": "code",
+  "prompt": "Write a Python function `clamp(x, lo, hi)` that clamps x into [lo, hi].\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert clamp(5, 0, 10) == 5\nassert clamp(-1, 0, 10) == 0\nassert clamp(99, 0, 10) == 10",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

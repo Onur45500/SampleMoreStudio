@@ -1,0 +1,13 @@
+{
+  "id": "math_041",
+  "category": "math",
+  "prompt": "A classroom has a whiteboard that is 4 feet by 6 feet. If each student needs 2 square feet of whiteboard space, how many students can use the whiteboard at once?",
+  "answer": "12",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "logic_019",
+  "category": "logic",
+  "prompt": "Among 19, 7, and 12, which is the largest?",
+  "answer": "19",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

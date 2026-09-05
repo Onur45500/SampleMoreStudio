@@ -1,0 +1,13 @@
+{
+  "id": "math_021",
+  "category": "math",
+  "prompt": "The Great Pyramid of Giza is 481 feet tall. A construction worker is looking at a 1/48 scale model of the pyramid. How tall is the model in inches?",
+  "answer": "120.25",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

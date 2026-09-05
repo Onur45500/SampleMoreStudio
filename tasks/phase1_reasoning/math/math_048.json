@@ -1,0 +1,13 @@
+{
+  "id": "math_048",
+  "category": "math",
+  "prompt": "A bakery sells cakes for $12 each. On Monday they sold 8 cakes. On Tuesday they sold twice as many. On Wednesday they sold half as many as Monday. How much money did they make over the three days?",
+  "answer": "336",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

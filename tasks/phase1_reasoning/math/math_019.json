@@ -1,0 +1,13 @@
+{
+  "id": "math_019",
+  "category": "math",
+  "prompt": "A new program had 60 downloads in the first month. The number of downloads in the second month was 3 times as many as the downloads in the first month, but then reduced by 30% in the third month. How many downloads did the program have total over the three months?",
+  "answer": "306",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

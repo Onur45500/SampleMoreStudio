@@ -1,0 +1,27 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./results:/app/results
+      - ./tasks:/app/tasks
+      - ./config:/app/config
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY:-}
+    # Ollama on host — Linux may need host.docker.internal extra_hosts
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_PROXY=http://backend:8000

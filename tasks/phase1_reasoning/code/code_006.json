@@ -1,0 +1,14 @@
+{
+  "id": "code_006",
+  "category": "code",
+  "prompt": "Write a Python function `count_vowels(s)` that counts vowels aeiou (case-insensitive).\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert count_vowels('Hello') == 2\nassert count_vowels('xyz') == 0",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

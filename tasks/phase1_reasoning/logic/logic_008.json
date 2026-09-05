@@ -1,0 +1,13 @@
+{
+  "id": "logic_008",
+  "category": "logic",
+  "prompt": "Some fish are pets. No pets are wild. Can we conclude that some fish are wild? Answer yes or no.",
+  "answer": "no",
+  "grader": "exact_match",
+  "grader_params": {
+    "domain": "logic"
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

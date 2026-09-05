@@ -1,0 +1,13 @@
+{
+  "id": "math_047",
+  "category": "math",
+  "prompt": "Sue lives in a fun neighborhood.  One weekend, the neighbors decided to play a massive game of hide and seek.  There are 200 people in the neighborhood who want to play.  20% of them hide in trees, 40% of them hide in their houses, and the rest hide under bushes.  How many people hide under bushes?",
+  "answer": "80",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

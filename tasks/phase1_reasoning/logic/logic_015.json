@@ -1,0 +1,13 @@
+{
+  "id": "logic_015",
+  "category": "logic",
+  "prompt": "If today is Monday, tomorrow is Tuesday. Today is Monday. What day is tomorrow? Answer with the weekday name.",
+  "answer": "tuesday",
+  "grader": "exact_match",
+  "grader_params": {
+    "domain": "logic"
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

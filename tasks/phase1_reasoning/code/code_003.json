@@ -1,0 +1,14 @@
+{
+  "id": "code_003",
+  "category": "code",
+  "prompt": "Write a Python function `factorial(n)` that returns n! for n >= 0.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert factorial(0) == 1\nassert factorial(5) == 120",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

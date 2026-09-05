@@ -1,0 +1,39 @@
+# Model roster — litellm model strings. Local models use ollama/ prefix.
+default_temperature: 0.7
+
+models:
+  - id: qwen2.5-7b
+    litellm_model: ollama/qwen2.5:7b-instruct-q4_K_M
+    provider: ollama
+    local: true
+    cost_per_1k_completion: 0.0
+    cost_per_1k_prompt: 0.0
+    enabled: true
+    notes: "Primary Phase 0 / local baseline (q4_K_M)"
+
+  - id: llama3.1-8b
+    litellm_model: ollama/llama3.1:8b
+    provider: ollama
+    local: true
+    cost_per_1k_completion: 0.0
+    cost_per_1k_prompt: 0.0
+    enabled: false
+    notes: "Optional local comparison"
+
+  - id: gpt-4o-mini
+    litellm_model: openrouter/openai/gpt-4o-mini
+    provider: openrouter
+    local: false
+    cost_per_1k_completion: 0.0006
+    cost_per_1k_prompt: 0.00015
+    enabled: false
+    notes: "Cheap API baseline — set OPENROUTER_API_KEY"
+
+pricing:
+  # Fallback pricing table (USD per 1k tokens) keyed by provider prefix
+  ollama:
+    prompt: 0.0
+    completion: 0.0
+  openrouter:
+    prompt: 0.00015
+    completion: 0.0006

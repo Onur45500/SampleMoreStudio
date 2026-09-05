@@ -1,0 +1,13 @@
+{
+  "id": "logic_009",
+  "category": "logic",
+  "prompt": "What is the next number in the sequence: 10, 12, 14, 16?",
+  "answer": "18",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

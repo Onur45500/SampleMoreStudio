@@ -1,0 +1,14 @@
+{
+  "id": "code_001",
+  "category": "code",
+  "prompt": "Write a Python function `add(a, b)` that returns the sum of a and b.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert add(2, 3) == 5\nassert add(-1, 1) == 0",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "math_011",
+  "category": "math",
+  "prompt": "Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past five months. He gets a $5 allowance each month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 left. How many lawns did he mow?",
+  "answer": "4",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

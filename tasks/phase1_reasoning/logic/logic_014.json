@@ -1,0 +1,13 @@
+{
+  "id": "logic_014",
+  "category": "logic",
+  "prompt": "There are two types of people: knights always tell the truth, knaves always lie. A says: 'B is a knight.' B says: 'A and I are of opposite types.' What is A? Answer knight or knave.",
+  "answer": "knave",
+  "grader": "exact_match",
+  "grader_params": {
+    "domain": "logic"
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

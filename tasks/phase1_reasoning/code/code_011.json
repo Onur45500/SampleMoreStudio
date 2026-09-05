@@ -1,0 +1,14 @@
+{
+  "id": "code_011",
+  "category": "code",
+  "prompt": "Write a Python function `gcd(a, b)` returning the greatest common divisor.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert gcd(12, 8) == 4\nassert gcd(7, 3) == 1",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "code_012",
+  "category": "code",
+  "prompt": "Write a Python function `flatten(xss)` that flattens one level of nested lists.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert flatten([[1,2],[3],[]]) == [1,2,3]",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

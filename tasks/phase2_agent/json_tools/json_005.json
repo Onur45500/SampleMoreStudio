@@ -1,0 +1,47 @@
+{
+  "id": "json_005",
+  "category": "json_tools",
+  "prompt": "Using json tools, what is the score of user0? The data is available via json_get / json_keys on the root object with key 'users'.",
+  "answer": "94",
+  "grader": "tool_answer",
+  "grader_params": {
+    "domain": "math",
+    "tolerance": 0
+  },
+  "metadata": {
+    "tool_kind": "json",
+    "data": {
+      "users": [
+        {
+          "name": "user0",
+          "score": 94,
+          "active": true
+        },
+        {
+          "name": "user1",
+          "score": 56,
+          "active": false
+        },
+        {
+          "name": "user2",
+          "score": 91,
+          "active": true
+        },
+        {
+          "name": "user3",
+          "score": 7,
+          "active": false
+        },
+        {
+          "name": "user4",
+          "score": 74,
+          "active": true
+        }
+      ],
+      "meta": {
+        "version": 1
+      }
+    },
+    "source": "generated"
+  }
+}

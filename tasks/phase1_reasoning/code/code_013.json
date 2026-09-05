@@ -1,0 +1,14 @@
+{
+  "id": "code_013",
+  "category": "code",
+  "prompt": "Write a Python function `word_count(s)` returning the number of whitespace-separated words.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert word_count('hello world') == 2\nassert word_count('  a  b ') == 2",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

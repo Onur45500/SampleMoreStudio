@@ -1,0 +1,14 @@
+{
+  "id": "code_008",
+  "category": "code",
+  "prompt": "Write a Python function `is_palindrome(s)` ignoring spaces and case.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert is_palindrome('Race car') is True\nassert is_palindrome('hello') is False",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

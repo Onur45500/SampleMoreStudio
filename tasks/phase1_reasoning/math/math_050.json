@@ -1,0 +1,13 @@
+{
+  "id": "math_050",
+  "category": "math",
+  "prompt": "Sam buys a pack of 12 pencils for $3. He sells each pencil for $0.50. How much profit does he make if he sells the whole pack?",
+  "answer": "3",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

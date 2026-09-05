@@ -1,0 +1,13 @@
+{
+  "id": "math_005",
+  "category": "math",
+  "prompt": "James writes a 3-page letter to 2 different friends twice a week. How many pages does he write a year?",
+  "answer": "624",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

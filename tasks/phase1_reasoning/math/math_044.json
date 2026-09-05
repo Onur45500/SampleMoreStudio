@@ -1,0 +1,13 @@
+{
+  "id": "math_044",
+  "category": "math",
+  "prompt": "John buys twice as many red ties as blue ties. He spends $30 on blue ties that cost $5 each. How much did he spend on ties?",
+  "answer": "90",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

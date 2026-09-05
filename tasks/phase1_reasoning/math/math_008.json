@@ -1,0 +1,13 @@
+{
+  "id": "math_008",
+  "category": "math",
+  "prompt": "Ken created a care package to send to his brother. He packed 3 shirts and twice as many pants. He packed 5 times as many pairs of socks as pants. How many items did he pack total?",
+  "answer": "45",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

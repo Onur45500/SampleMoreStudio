@@ -1,0 +1,13 @@
+{
+  "id": "math_049",
+  "category": "math",
+  "prompt": "A tank of water has a capacity of 50 liters. It currently has 20 liters. Water flows in at 5 liters per minute and out at 2 liters per minute. How many minutes until the tank is full?",
+  "answer": "10",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

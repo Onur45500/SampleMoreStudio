@@ -1,0 +1,13 @@
+{
+  "id": "math_022",
+  "category": "math",
+  "prompt": "Stephen placed an online order for groceries.  His final bill came to $40.00.  Because this was through a delivery vendor, they tacked on a 25% fee to his final total and sum.  Stephen also wants to add a $5 tip.  After the tip, what was the final amount of Stephen's grocery delivery?",
+  "answer": "55",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

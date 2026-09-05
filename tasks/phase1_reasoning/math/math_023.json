@@ -1,0 +1,13 @@
+{
+  "id": "math_023",
+  "category": "math",
+  "prompt": "A company pays each of its employees $600 in a month. The company has a policy of increasing the salaries of each of its employees by 10% of the initial salary every year for those staying with the company for more than three years. If Tess has worked for the company for 4 years, calculate her monthly salary after receiving the increase.",
+  "answer": "660",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

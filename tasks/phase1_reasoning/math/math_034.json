@@ -1,0 +1,13 @@
+{
+  "id": "math_034",
+  "category": "math",
+  "prompt": "A candle burns down 2 centimeters every hour. How many centimeters shorter will a 20 centimeter candle be after 4 hours?",
+  "answer": "8",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

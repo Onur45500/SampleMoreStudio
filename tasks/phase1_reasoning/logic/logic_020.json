@@ -1,0 +1,13 @@
+{
+  "id": "logic_020",
+  "category": "logic",
+  "prompt": "Is 22 even or odd?",
+  "answer": "even",
+  "grader": "exact_match",
+  "grader_params": {
+    "domain": "logic"
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

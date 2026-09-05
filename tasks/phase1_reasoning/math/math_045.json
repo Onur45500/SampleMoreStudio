@@ -1,0 +1,13 @@
+{
+  "id": "math_045",
+  "category": "math",
+  "prompt": "Tracy used a piece of wire 4 feet long to form a square. How many inches is each side of the square?",
+  "answer": "12",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}

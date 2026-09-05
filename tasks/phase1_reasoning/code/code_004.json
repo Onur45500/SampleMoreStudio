@@ -1,0 +1,14 @@
+{
+  "id": "code_004",
+  "category": "code",
+  "prompt": "Write a Python function `reverse_string(s)` that returns the reversed string.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert reverse_string('abc') == 'cba'\nassert reverse_string('') == ''",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

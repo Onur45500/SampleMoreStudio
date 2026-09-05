@@ -1,0 +1,13 @@
+{
+  "id": "logic_016",
+  "category": "logic",
+  "prompt": "Among 10, 14, and 5, which is the largest?",
+  "answer": "14",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "generated"
+  }
+}

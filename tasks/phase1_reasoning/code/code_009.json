@@ -1,0 +1,14 @@
+{
+  "id": "code_009",
+  "category": "code",
+  "prompt": "Write a Python function `unique_list(xs)` that returns a new list with duplicates removed preserving order.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert unique_list([1,2,2,3,1]) == [1,2,3]",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

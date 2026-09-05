@@ -1,0 +1,14 @@
+{
+  "id": "code_007",
+  "category": "code",
+  "prompt": "Write a Python function `fibonacci(n)` returning the n-th Fibonacci number with fib(0)=0, fib(1)=1.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert fibonacci(0) == 0\nassert fibonacci(1) == 1\nassert fibonacci(10) == 55",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

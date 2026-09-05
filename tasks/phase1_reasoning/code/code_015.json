@@ -1,0 +1,14 @@
+{
+  "id": "code_015",
+  "category": "code",
+  "prompt": "Write a Python function `median(xs)` for a non-empty list of numbers (sort and pick middle / average of two middles).\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert median([1,3,2]) == 2\nassert median([1,2,3,4]) == 2.5",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

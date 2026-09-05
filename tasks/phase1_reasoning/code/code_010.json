@@ -1,0 +1,14 @@
+{
+  "id": "code_010",
+  "category": "code",
+  "prompt": "Write a Python function `sum_list(xs)` that returns the sum of numbers in xs.\n\nReturn only the function implementation in a python code block. End with Answer: done",
+  "answer": "tests_pass",
+  "grader": "code_tests",
+  "grader_params": {
+    "tests": "assert sum_list([1,2,3]) == 6\nassert sum_list([]) == 0",
+    "timeout": 5
+  },
+  "metadata": {
+    "source": "handwritten"
+  }
+}

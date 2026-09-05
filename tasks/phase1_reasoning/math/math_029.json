@@ -1,0 +1,13 @@
+{
+  "id": "math_029",
+  "category": "math",
+  "prompt": "Claire makes a 3 egg omelette every morning for breakfast.  How many dozens of eggs will she eat in 4 weeks?",
+  "answer": "7",
+  "grader": "numeric_tolerance",
+  "grader_params": {
+    "tolerance": 0.01
+  },
+  "metadata": {
+    "source": "gsm8k_offline"
+  }
+}
